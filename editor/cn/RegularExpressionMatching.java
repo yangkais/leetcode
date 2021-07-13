@@ -72,12 +72,62 @@ public class RegularExpressionMatching {
     public static void main(String[] args) {
         Solution solution = new RegularExpressionMatching().new Solution();
         // TO TEST
+        System.out.println(solution.isMatch("aab", "c*a*b"));
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public boolean isMatch(String s, String p) {
+            int m = s.length();
+            int n = p.length();
 
+            // 递归匹配字符串；下标为子串长度，匹配结果组装为二位数组
+            boolean[][] f = new boolean[m + 1][n + 1];
+            // 空字符串
+            f[0][0] = true;
+            // 遍历s
+            for (int i = 0; i <= m; ++i) {
+                // 遍历p，下标从1开始
+                for (int j = 1; j <= n; ++j) {
+                    // s、p子串匹配，取当前p子串最后一位，是否为'*'
+                    if (p.charAt(j - 1) == '*') {  // 一、不匹配字符，将该组合扔掉，不再进行匹配; 二、匹配s末尾的一个字符，将该字符扔掉，而该组合还可以继续进行匹配；
+                        //一： p子串[0-j]，因为*会导致前一个字符出现0或者多次，所以其结果与向左倒序再匹配一位的结果一致
+                        f[i][j] = f[i][j - 2]; // j-2: 因为++j再加去掉*
+                        if (matches(s, p, i, j - 1)) {
+                            // 二、匹配s末尾的一个字符，将该字符扔掉，而该组合还可以继续进行匹配
+                            // 两者情况任意满足f[i][j]都为true
+                            f[i][j] = f[i][j] || f[i - 1][j];
+                        }
+                    } else { // 最后一位不为*
+                        if (matches(s, p, i, j)) {
+                            // 若子串最后字符匹配，则结果与f[i - 1][j - 1]相同
+                            f[i][j] = f[i - 1][j - 1];
+                        }
+                    }
+                }
+            }
+            return f[m][n];
+        }
+
+        /**
+         * 当前位置字符是否匹配
+         *
+         * @param s s子串
+         * @param p p子串
+         * @param i s下标
+         * @param j p下标
+         * @return 是否匹配
+         */
+        private boolean matches(String s, String p, int i, int j) {
+            if (i == 0) { // 未匹配
+                return false;
+            }
+            // 任意匹配'.'
+            if (p.charAt(j - 1) == '.') {
+                return true;
+            }
+            // s、p子串当前位置是否为同一字符
+            return s.charAt(i - 1) == p.charAt(j - 1);
         }
     }
     //leetcode submit region end(Prohibit modification and deletion)
