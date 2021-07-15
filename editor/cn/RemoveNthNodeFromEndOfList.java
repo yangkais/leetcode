@@ -92,9 +92,11 @@ public class RemoveNthNodeFromEndOfList {
             return head;
         }
 
+
+
     }
 
-    public static class ListNode {
+    static class ListNode {
         int val;
         ListNode next;
 
