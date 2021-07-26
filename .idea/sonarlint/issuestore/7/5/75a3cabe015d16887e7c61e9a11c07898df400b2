@@ -1,0 +1,10 @@
+
+
+java:S1149Z"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".( Ì•ãüÿÿÿÿ8ìÙƒïª/
+Z	java:S1067"9Replace this use of System.out or System.err by a logger.(õ†¢íûÿÿÿÿ8ñÙƒïª/
+
+java:S1149Z"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".( Ì•ãüÿÿÿÿ8õÙƒïª/
+N
+java:S3599B",Use another way to initialize this instance.(±ú‡›ûÿÿÿÿ8÷Ùƒïª/
+{
+java:S1171B"YMove the contents of this initializer to a standard constructor or to field initializers.(±ú‡›ûÿÿÿÿ8øÙƒïª/
