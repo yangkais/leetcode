@@ -53,5 +53,13 @@ K
 editor/cn/Permutations.java,a/a/aaa3658e3e7ac4ff55557f9d8d10e092f7321dcd
 G
 editor/cn/JumpGame.java,8/1/816bb87b057fb74c02ad79206b93282bbca09ea1
+P
+ editor/cn/MergeKSortedLists.java,e/9/e90255a5a6e1345d8780563983b83ed559327ca9
+M
+editor/cn/MergeIntervals.java,a/e/aeb8536a6445b342bbf4d51b4fb77c943b812b4c
 L
 editor/cn/GroupAnagrams.java,0/9/09ec7263e81f9052e912f68750eb26cb9e72b17b
+J
+editor/cn/UniquePaths.java,0/b/0b87842445178896fded2a7bf5b0b3053461eb7d
+M
+editor/cn/MinimumPathSum.java,8/1/8199f6d2d058f3a4d3191f3f1aca358061412749
