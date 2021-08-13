@@ -1,0 +1,10 @@
+
+V	java:S125+"<This block of commented-out lines of code should be removed.(´Ç†Ãøÿÿÿÿ
+W
+java:S1854G"<Remove this useless assignment to local variable "lruCache".(Åµü—þÿÿÿÿ
+F
+java:S2160P"+Override the "equals" method in this class.(¯¼áþÿÿÿÿ
+>
+java:S1185]"(Remove this method to simply inherit it.(ßÛ¢Ÿ
+H
+java:S1481G"-Remove this unused "lruCache" local variable.(Åµü—þÿÿÿÿ
