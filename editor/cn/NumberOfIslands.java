@@ -55,12 +55,53 @@ public class NumberOfIslands {
     public static void main(String[] args) {
         Solution solution = new NumberOfIslands().new Solution();
         // TO TEST
+        char[][] grid = {{'1', '1', '0', '0', '0'},
+                {'1', '1', '0', '0', '0'},
+                {'0', '0', '1', '0', '0'},
+                {'0', '0', '0', '1', '1'}};
+        System.out.println(solution.numIslands(grid));
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+        /**
+         * 深度优先搜索
+         *
+         * @param grid
+         * @return
+         */
         public int numIslands(char[][] grid) {
+            int m = grid.length;
+            int n = grid[0].length;
+            int lands = 0;
+            for (int i = 0; i < m; i++) {
+                for (int j = 0; j < n; j++) {
+                    if (grid[i][j] == '1') {
+                        // 遇到'1' 代表有陆地+1
+                        lands++;
+                        dfs(grid, i, j, m, n);
+                    }
+                }
+            }
+            return lands;
+        }
 
+        /**
+         * 前后左右遍历，并且将'1'改为'0'，避免重复计算
+         *
+         * @param grid
+         * @param i
+         * @param j
+         */
+        void dfs(char[][] grid, int i, int j, int m, int n) {
+            if (i < 0 || j < 0 || i >= m || j >= n || grid[i][j] == '0') {
+                return;
+            }
+            grid[i][j] = '0';
+            dfs(grid, i - 1, j, m, n);
+            dfs(grid, i + 1, j, m, n);
+            dfs(grid, i, j - 1, m, n);
+            dfs(grid, i, j + 1, m, n);
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
