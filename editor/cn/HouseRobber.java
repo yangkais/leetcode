@@ -46,7 +46,7 @@ public class HouseRobber {
         Solution solution = new HouseRobber().new Solution();
         // TO TEST
         int[] nums = {1, 2, 3, 1};
-        System.out.println(solution.rob2(nums));
+        System.out.println(solution.rob(nums));
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
