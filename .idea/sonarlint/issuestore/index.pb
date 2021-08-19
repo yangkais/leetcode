@@ -85,8 +85,6 @@ O
 editor/cn/MaximalRectangle.java,6/0/60bb5d2b47690191472ce1052771826028afeb3d
 W
 'editor/cn/ValidateBinarySearchTree.java,3/7/377727edb7d65e37153f39c5e0f88bdcb216ce74
-L
-editor/cn/SymmetricTree.java,b/2/b25e57b38e740bdb973a2210f4f94e2ea4b381de
 \
 ,editor/cn/BinaryTreeLevelOrderTraversal.java,2/7/27ff22c5380b859b31ad7144c2bc838c43c870d8
 W
@@ -117,3 +115,7 @@ U
 %editor/cn/MaximumProductSubarray.java,5/d/5d7aedb4ba7028d4dcc63b324ba4e6aad7ea4708
 G
 editor/cn/MinStack.java,7/f/7fbd6b2e99db8416ecadf40994b2b5fd8f4cac2c
+[
++editor/cn/IntersectionOfTwoLinkedLists.java,6/b/6b4fc6ba73fd47e6fb92f301f4eb1745364bc25f
+N
+editor/cn/MajorityElement.java,8/0/80e713a13f0175cfab9de3de0cb6bea8dc9194c2
