@@ -1,0 +1,504 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddTwoNumbers",
+            "request": "launch",
+            "mainClass": "cn.AddTwoNumbers",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch BestTimeToBuyAndSellStock",
+            "request": "launch",
+            "mainClass": "cn.BestTimeToBuyAndSellStock",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreeInorderTraversal",
+            "request": "launch",
+            "mainClass": "cn.BinaryTreeInorderTraversal",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreeLevelOrderTraversal",
+            "request": "launch",
+            "mainClass": "cn.BinaryTreeLevelOrderTraversal",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreeMaximumPathSum",
+            "request": "launch",
+            "mainClass": "cn.BinaryTreeMaximumPathSum",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClimbingStairs",
+            "request": "launch",
+            "mainClass": "cn.ClimbingStairs",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch CombinationSum",
+            "request": "launch",
+            "mainClass": "cn.CombinationSum",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstructBinaryTreeFromPreorderAndInorderTraversal",
+            "request": "launch",
+            "mainClass": "cn.ConstructBinaryTreeFromPreorderAndInorderTraversal",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ContainerWithMostWater",
+            "request": "launch",
+            "mainClass": "cn.ContainerWithMostWater",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch CourseSchedule",
+            "request": "launch",
+            "mainClass": "cn.CourseSchedule",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch EditDistance",
+            "request": "launch",
+            "mainClass": "cn.EditDistance",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindFirstAndLastPositionOfElementInSortedArray",
+            "request": "launch",
+            "mainClass": "cn.FindFirstAndLastPositionOfElementInSortedArray",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlattenBinaryTreeToLinkedList",
+            "request": "launch",
+            "mainClass": "cn.FlattenBinaryTreeToLinkedList",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch GenerateParentheses",
+            "request": "launch",
+            "mainClass": "cn.GenerateParentheses",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch GroupAnagrams",
+            "request": "launch",
+            "mainClass": "cn.GroupAnagrams",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch HouseRobber",
+            "request": "launch",
+            "mainClass": "cn.HouseRobber",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ImplementTriePrefixTree",
+            "request": "launch",
+            "mainClass": "cn.ImplementTriePrefixTree",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntersectionOfTwoLinkedLists",
+            "request": "launch",
+            "mainClass": "cn.IntersectionOfTwoLinkedLists",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch InvertBinaryTree",
+            "request": "launch",
+            "mainClass": "cn.InvertBinaryTree",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JumpGame",
+            "request": "launch",
+            "mainClass": "cn.JumpGame",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch KthLargestElementInAnArray",
+            "request": "launch",
+            "mainClass": "cn.KthLargestElementInAnArray",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargestRectangleInHistogram",
+            "request": "launch",
+            "mainClass": "cn.LargestRectangleInHistogram",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LetterCombinationsOfAPhoneNumber",
+            "request": "launch",
+            "mainClass": "cn.LetterCombinationsOfAPhoneNumber",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedListCycle",
+            "request": "launch",
+            "mainClass": "cn.LinkedListCycle",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedListCycleIi",
+            "request": "launch",
+            "mainClass": "cn.LinkedListCycleIi",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestConsecutiveSequence",
+            "request": "launch",
+            "mainClass": "cn.LongestConsecutiveSequence",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestPalindromicSubstring",
+            "request": "launch",
+            "mainClass": "cn.LongestPalindromicSubstring",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestSubstringWithoutRepeatingCharacters",
+            "request": "launch",
+            "mainClass": "cn.LongestSubstringWithoutRepeatingCharacters",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestValidParentheses",
+            "request": "launch",
+            "mainClass": "cn.LongestValidParentheses",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LruCache",
+            "request": "launch",
+            "mainClass": "cn.LruCache",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MajorityElement",
+            "request": "launch",
+            "mainClass": "cn.MajorityElement",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximalRectangle",
+            "request": "launch",
+            "mainClass": "cn.MaximalRectangle",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximalSquare",
+            "request": "launch",
+            "mainClass": "cn.MaximalSquare",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumDepthOfBinaryTree",
+            "request": "launch",
+            "mainClass": "cn.MaximumDepthOfBinaryTree",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumProductSubarray",
+            "request": "launch",
+            "mainClass": "cn.MaximumProductSubarray",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumSubarray",
+            "request": "launch",
+            "mainClass": "cn.MaximumSubarray",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MedianOfTwoSortedArrays",
+            "request": "launch",
+            "mainClass": "cn.MedianOfTwoSortedArrays",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeIntervals",
+            "request": "launch",
+            "mainClass": "cn.MergeIntervals",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeKSortedLists",
+            "request": "launch",
+            "mainClass": "cn.MergeKSortedLists",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeTwoSortedLists",
+            "request": "launch",
+            "mainClass": "cn.MergeTwoSortedLists",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumPathSum",
+            "request": "launch",
+            "mainClass": "cn.MinimumPathSum",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumWindowSubstring",
+            "request": "launch",
+            "mainClass": "cn.MinimumWindowSubstring",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch NextPermutation",
+            "request": "launch",
+            "mainClass": "cn.NextPermutation",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberOfIslands",
+            "request": "launch",
+            "mainClass": "cn.NumberOfIslands",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Permutations",
+            "request": "launch",
+            "mainClass": "cn.Permutations",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch RegularExpressionMatching",
+            "request": "launch",
+            "mainClass": "cn.RegularExpressionMatching",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveNthNodeFromEndOfList",
+            "request": "launch",
+            "mainClass": "cn.RemoveNthNodeFromEndOfList",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseLinkedList",
+            "request": "launch",
+            "mainClass": "cn.ReverseLinkedList",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotateImage",
+            "request": "launch",
+            "mainClass": "cn.RotateImage",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchInRotatedSortedArray",
+            "request": "launch",
+            "mainClass": "cn.SearchInRotatedSortedArray",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingleNumber",
+            "request": "launch",
+            "mainClass": "cn.SingleNumber",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortColors",
+            "request": "launch",
+            "mainClass": "cn.SortColors",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortList",
+            "request": "launch",
+            "mainClass": "cn.SortList",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Subsets",
+            "request": "launch",
+            "mainClass": "cn.Subsets",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SymmetricTree",
+            "request": "launch",
+            "mainClass": "cn.SymmetricTree",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreeSum",
+            "request": "launch",
+            "mainClass": "cn.ThreeSum",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TrappingRainWater",
+            "request": "launch",
+            "mainClass": "cn.TrappingRainWater",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoSum",
+            "request": "launch",
+            "mainClass": "cn.TwoSum",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch UniqueBinarySearchTrees",
+            "request": "launch",
+            "mainClass": "cn.UniqueBinarySearchTrees",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch UniquePaths",
+            "request": "launch",
+            "mainClass": "cn.UniquePaths",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidParentheses",
+            "request": "launch",
+            "mainClass": "cn.ValidParentheses",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidateBinarySearchTree",
+            "request": "launch",
+            "mainClass": "cn.ValidateBinarySearchTree",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch WordBreak",
+            "request": "launch",
+            "mainClass": "cn.WordBreak",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch WordSearch",
+            "request": "launch",
+            "mainClass": "cn.WordSearch",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ZigzagConversion",
+            "request": "launch",
+            "mainClass": "cn.ZigzagConversion",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleSort",
+            "request": "launch",
+            "mainClass": "cn.sort.BubbleSort",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch HeapSort",
+            "request": "launch",
+            "mainClass": "cn.sort.HeapSort",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertionSort",
+            "request": "launch",
+            "mainClass": "cn.sort.InsertionSort",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSort",
+            "request": "launch",
+            "mainClass": "cn.sort.QuickSort",
+            "projectName": "leetcode_ecc2935a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SelectSort",
+            "request": "launch",
+            "mainClass": "cn.sort.SelectSort",
+            "projectName": "leetcode_ecc2935a"
+        }
+    ]
+}
