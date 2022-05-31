@@ -1,0 +1,6 @@
+
+S	java:S106\"9Replace this use of System.out or System.err by a logger.(­Ì“Ýùÿÿÿÿ
+G
+java:S3599b",Use another way to initialize this instance.(†þ¶Æùÿÿÿÿ
+t
+java:S1171b"YMove the contents of this initializer to a standard constructor or to field initializers.(†þ¶Æùÿÿÿÿ

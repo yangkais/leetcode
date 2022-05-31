@@ -1,0 +1,13 @@
+
+V	java:S125X"<This block of commented-out lines of code should be removed.(Îòò’ıÿÿÿÿ
+S	java:S106t"9Replace this use of System.out or System.err by a logger.(îò †ÿÿÿÿÿ
+G
+java:S3599y",Use another way to initialize this instance.(†ş¶Æùÿÿÿÿ
+t
+java:S1171y"YMove the contents of this initializer to a standard constructor or to field initializers.(†ş¶Æùÿÿÿÿ
+P
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8Ø¼Ê‚0
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ø¼Ê‚0
+Z
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8Ø¼Ê‚0

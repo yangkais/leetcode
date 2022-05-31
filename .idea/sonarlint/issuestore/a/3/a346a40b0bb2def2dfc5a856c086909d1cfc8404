@@ -1,0 +1,9 @@
+
+K
+java:S1191"5Use classes from the Java API instead of Sun classes.(Ï¥¯ö
+N	java:S106a"9Replace this use of System.out or System.err by a logger.(¢æë¥
+m
+java:S3776f"RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.(ò¢Ô¢ýÿÿÿÿ
+D	java:S108‹")Either remove or fill this block of code.(—£²”úÿÿÿÿ
+R
+java:S1128"<Remove this unused import 'com.sun.deploy.util.StringUtils'.(Ï¥¯ö
